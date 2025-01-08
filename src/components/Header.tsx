@@ -8,7 +8,7 @@ export function Header() {
           <div className="flex items-center space-x-2">
             <Bug className="h-8 w-8 text-green-600" />
             <span className="text-2xl font-bold text-gray-800">
-              David Pest Control
+              Natan Pest Control
             </span>
           </div>
           <div className="hidden md:flex space-x-6">

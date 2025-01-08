@@ -60,7 +60,7 @@ export function Footer() {
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
           <p>
-            &copy; {new Date().getFullYear()} David Pest Control Penang. All
+            &copy; {new Date().getFullYear()} Natan Pest Control Penang. All
             rights reserved.
           </p>
         </div>
