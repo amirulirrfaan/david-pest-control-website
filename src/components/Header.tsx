@@ -14,7 +14,7 @@ export function Header() {
           <div className="hidden md:flex space-x-6">
             <div className="flex items-center space-x-2">
               <Phone className="h-5 w-5 text-green-600" />
-              <span className="text-gray-600">(011) 123-4567</span>
+              <span className="text-gray-600">+60178118887</span>
             </div>
             <div className="flex items-center space-x-2">
               <Clock className="h-5 w-5 text-green-600" />

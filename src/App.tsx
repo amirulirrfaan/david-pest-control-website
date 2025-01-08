@@ -1,37 +1,41 @@
-import React from 'react';
-import { Header } from './components/Header';
-import { Navigation } from './components/Navigation';
-import { Hero } from './components/Hero';
-import { Services } from './components/Services';
-import { Stats } from './components/Stats';
-import { Process } from './components/Process';
-import { WhyChooseUs } from './components/WhyChooseUs';
-import { Gallery } from './components/Gallery';
-import { Testimonials } from './components/Testimonials';
-import { Coverage } from './components/Coverage';
-import { PestTypes } from './components/PestTypes';
-import { Contact } from './components/Contact';
-import { Footer } from './components/Footer';
+import { HelmetProvider } from "react-helmet-async";
+import { Contact } from "./components/Contact";
+import { Coverage } from "./components/Coverage";
+import { Footer } from "./components/Footer";
+import { Gallery } from "./components/Gallery";
+import { Header } from "./components/Header";
+import { Hero } from "./components/Hero";
+import { Navigation } from "./components/Navigation";
+import { PestTypes } from "./components/PestTypes";
+import { Process } from "./components/Process";
+import { SEO } from "./components/SEO";
+import { Services } from "./components/Services";
+import { Stats } from "./components/Stats";
+import { Testimonials } from "./components/Testimonials";
+import { WhyChooseUs } from "./components/WhyChooseUs";
 
 function App() {
   return (
-    <div className="min-h-screen">
-      <Header />
-      <Navigation />
-      <main>
-        <Hero />
-        <Services />
-        <Stats />
-        <Process />
-        <WhyChooseUs />
-        <Gallery />
-        <Testimonials />
-        <Coverage />
-        <PestTypes />
-        <Contact />
-      </main>
-      <Footer />
-    </div>
+    <HelmetProvider>
+      <div className="min-h-screen">
+        <SEO />
+        <Header />
+        <Navigation />
+        <main>
+          <Hero />
+          <Services />
+          <Stats />
+          <Process />
+          <WhyChooseUs />
+          <Gallery />
+          <Testimonials />
+          <Coverage />
+          <PestTypes />
+          <Contact />
+        </main>
+        <Footer />
+      </div>
+    </HelmetProvider>
   );
 }
 

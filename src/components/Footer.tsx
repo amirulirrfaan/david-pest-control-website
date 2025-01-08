@@ -4,25 +4,21 @@ import {
   Instagram,
   Mail,
   MapPin,
-  Phone,
   Twitter,
 } from "lucide-react";
 
 export function Footer() {
   return (
-    <footer className="bg-gray-900 text-gray-300">
-      <div className="container mx-auto px-4 py-12">
+    <footer className="bg-gray-900 text-white py-12">
+      <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-xl font-semibold mb-4">Contact Us</h3>
-            <div className="space-y-3">
+            <h3 className="text-xl font-semibold mb-4">Contact Info</h3>
+            <div className="space-y-2">
+              <p>Phone: +60178118887</p>
               <div className="flex items-center space-x-3">
                 <MapPin className="h-5 w-5 text-green-500" />
                 <span> Georgetown, Penang</span>
-              </div>
-              <div className="flex items-center space-x-3">
-                <Phone className="h-5 w-5 text-green-500" />
-                <span>+604-123-4567</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-green-500" />
